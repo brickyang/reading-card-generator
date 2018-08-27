@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-cmn-Hans" class="h100">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <title>Card Ganerator</title>
+</head>
+
+<body class="h100">
+  <div class="container h100">
+    <div class="h100 row align-items-center justify-content-center">
+
+      <div class="col-md-5 left-col">
+        <input id="input-title" class="input-title form-control form-control-lg" type="text" placeholder="Title" />
+        <div class="buttons">
+          <div class="rel">
+            <button type="button" class="btn btn-secondary btn-lg">Choose File</button>
+            <input id="input-file" class="input-file" type="file" accept="image/*" />
+          </div>
+          <div>
+            <button type="button" id="dl-btn" class="btn btn-outline-secondary btn-lg">Donwload</button>
+            <a id="dl-node" href="" download></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 right-col">
+        <div id="card" class="card">
+          <img id="card-image" class="card-img-top" src="./assets/image/image.png">
+          <div class="card-body">
+            <h5 id="card-title" class="card-title">Title</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="./assets/js/jquery-3.3.1.min.js"></script>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/html2canvas.min.js"></script>
+  <script src="./assets/js/config.js"></script>
+  <script src="./assets/js/canvas.js"></script>
+  <script>ready();</script>
+</body>
+
+</html>
