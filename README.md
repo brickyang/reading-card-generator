@@ -1,6 +1,6 @@
 Generate beautiful reading card in one click.
 
-##Screenshot
+## Screenshot
 
 ![screenshot](https://github.com/brickyang/reading-card-generator/blob/master/screenshot.png?raw=true)
 
