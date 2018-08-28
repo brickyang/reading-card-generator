@@ -1,0 +1,31 @@
+{
+  "name": "reading-card-generator",
+  "version": "2.0.0",
+  "description": "Generate beautiful reading card in one click",
+  "main": "main.js",
+  "build": {
+    "appId": "com.brickyang.rcgenerator",
+    "productName": "RC Generator",
+    "mac": {
+      "target": [
+        "dmg"
+      ]
+    },
+    "win": {
+      "target": [
+        "portable"
+      ]
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "dist-win": "electron-builder --win --x64",
+    "dist-mac": "electron-builder --mac --x64"
+  },
+  "devDependencies": {
+    "electron": "^2.0.8",
+    "electron-builder": "^20.28.2"
+  },
+  "author": "brickyang <brick.c.yang@gmail.com>",
+  "license": "MIT"
+}
