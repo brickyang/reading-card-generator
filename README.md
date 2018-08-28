@@ -1,8 +1,20 @@
-Generator of Reading Card.
+Generate beautiful reading card in one click.
 
-Choose file, input title, and download.
+## Browser
 
+Open `index.html` in your browser.
+
+### Browser compatibility
+
+See [html2canvas](https://github.com/niklasvh/html2canvas#browser-compatibility).
+
+## Electron
+
+```js
+$ npm install
+$ npm start
+```
 
 ## Screenshot
 
-![screenshot](https://github.com/brickyang/reading-card-generator/blob/master/screenshot.jpg)
+![screenshot](https://github.com/brickyang/reading-card-generator/blob/master/screenshot.png?raw=true)
