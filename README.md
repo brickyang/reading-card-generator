@@ -24,11 +24,9 @@ $ npm start
 ## Build
 
 ```bash
-// for macOS
+# for macOS
 $ npm run dist-mac
 
-// for windows x64
+# for windows x64
 $ npm run dist-win
 ```
-
-
