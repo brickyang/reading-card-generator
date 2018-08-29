@@ -52,3 +52,17 @@
   font-size: 16px;
   line-height: 1.5;
 }
+
+.progress {
+  position: absolute;
+  top: 98px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 8px;
+  width: 64%;
+}
+
+.progress-bar {
+  background-color: rgba(0, 0, 0, 0.28);
+}
