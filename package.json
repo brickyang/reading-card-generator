@@ -1,6 +1,6 @@
 {
   "name": "reading-card-generator",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Generate beautiful reading card in one click",
   "main": "main.js",
   "build": {
