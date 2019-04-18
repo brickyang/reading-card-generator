@@ -51,7 +51,7 @@
 @font-face {
   font-family: 'Source Han Serif CN';
   font-weight: 700;
-  src: url('../font/SourceHanSerifCN-Bold.otf') format('otf');
+  src: url('../font/SourceHanSerifCN-Bold.otf') format('opentype');
 }
 
 .card-title {
