@@ -23,7 +23,7 @@
     "dist-mac": "electron-builder --mac --x64"
   },
   "devDependencies": {
-    "electron": "^2.0.8",
+    "electron": "^9.1.0",
     "electron-builder": "^20.28.2"
   },
   "author": "brickyang <brick.c.yang@gmail.com>",
